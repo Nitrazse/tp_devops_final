@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+apt-get update -y
+apt-get install -y curl
 echo "=== Installation de Node Exporter ==="
 useradd --no-create-home --shell /bin/false node_exporter || true
 curl -sSL https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz -o /tmp/node_exporter.tar.gz
