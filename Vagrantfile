@@ -1,4 +1,6 @@
 Vagrant.configure("2") do |config|
+  config.vm.boot_timeout = 600
+
   config.vm.define "k3s-node" do |node|
     node.vm.box = "debian/bookworm64"
     node.vm.hostname = "k3s-node"
