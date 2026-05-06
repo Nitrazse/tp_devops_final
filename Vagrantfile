@@ -1,5 +1,8 @@
 Vagrant.configure("2") do |config|
   config.vm.boot_timeout = 600
+  config.ssh.insert_key = false
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
 
   config.vm.define "k3s-node" do |node|
     node.vm.box = "debian/bookworm64"
