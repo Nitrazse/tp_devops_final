@@ -25,3 +25,4 @@ Vagrant.configure("2") do |config|
     mon.vm.provision "shell", path: "scripts/install_monitoring.sh"
   end
 end
+
