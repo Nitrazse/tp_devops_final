@@ -1,7 +1,9 @@
 # TP DevOps Final - Lacets Connectés API
 
 ## Équipe
-- Nitrazse
+- MOUKOUMI ELYSEE SHALOM
+- KOPHY AURIANE-ESTHER
+- KEBE ABDOUL KADER JUNIOR
 
 ## Présentation
 
